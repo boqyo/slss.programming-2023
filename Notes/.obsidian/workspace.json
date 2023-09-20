@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#outpit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,6 +162,7 @@
   },
   "active": "8f60c586e0bc4964",
   "lastOpenFiles": [
+    "Untitled.canvas",
     "Natural Language Processing.md",
     "Markdown (Reintroduction).md",
     "Color Codes.md"
