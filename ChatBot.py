@@ -1,12 +1,14 @@
 # Chatbot
 # Author: shaun
 # Date: Sep 20 2023
-
+import random
+import time
 # Greet the user
 print("Hello user.")
 print("I am a ChatBot, here to talk to you.")
 # Get the user's name and store it in a variable
 user_name = input("What is your name? ")
+time.sleep(0.5)
 print(f"Hello, {user_name}")
 # Ask the user what their favorite food is
 favorite_food = input(f"So, {user_name}, what is your favorite food? ")
@@ -17,8 +19,10 @@ list_of_food_responses = [
     "That sounds good",
     "I'll never be able to eat",
     f"Wow, {favorite_food}, good choice."] 
+
 # Choose one of those responses randomly
 import random 
 random_food_response = random.choice(list_of_food_responses)
 # Print out one of those responses
+time.sleep(1)
 print(random_food_response)
