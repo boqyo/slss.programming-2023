@@ -66,9 +66,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "372f935f6c236ec5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -196,7 +206,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "45f2c99db20ea129",
+  "active": "372f935f6c236ec5",
   "lastOpenFiles": [
     "Natural Language Processing.md",
     "Modules.md",
