@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boolean.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boolean.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boolean.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boolean.md"
+                "file": "README.md"
               }
             }
           }
@@ -186,9 +186,10 @@
   },
   "active": "93382f2977fa5f4e",
   "lastOpenFiles": [
+    "Boolean.md",
+    "README.md",
     "Conditionals.md",
     "Color Codes.md",
-    "Boolean.md",
     "Natural Language Processing.md",
     "Lists.md",
     "Design.md",

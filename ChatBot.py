@@ -38,4 +38,4 @@ import random
 random_food_response = random.choice(list_of_food_responses)
 # Print out one of those responses
 time.sleep(1)
-print(random_food_response)
+print(random_food_response)x
