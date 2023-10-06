@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conditionals.md",
+                "file": "Natural Language Processing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc7eabe2ef6ae900",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Errors.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conditionals.md",
+                "file": "Errors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conditionals.md",
+                "file": "Errors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conditionals.md"
+                "file": "Errors.md"
               }
             }
           }
@@ -184,17 +196,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "93382f2977fa5f4e",
+  "active": "bc7eabe2ef6ae900",
   "lastOpenFiles": [
-    "Color Codes.md",
-    "Boolean.md",
-    "README.md",
-    "Conditionals.md",
     "Natural Language Processing.md",
+    "Markdown (Reintroduction).md",
+    "Errors.md",
+    "README.md",
+    "Boolean.md",
+    "Color Codes.md",
+    "Conditionals.md",
     "Lists.md",
     "Design.md",
     "Modules.md",
-    "Markdown (Reintroduction).md",
     "ChatBot.py",
     "Untitled.canvas"
   ]

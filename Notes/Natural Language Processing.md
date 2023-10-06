@@ -113,3 +113,6 @@ print(f"ooo, {favorite_food} sounds good")
 # [[Boolean]]
 
 # [[Conditionals]]
+
+# [[Errors]]
+
