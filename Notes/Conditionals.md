@@ -1,4 +1,4 @@
-czxImagine that you want your code to do something only if a certain condition is met
+Imagine that you want your code to do something only if a certain condition is met
 
 We can do this using conditionals  
 When we use a conditional, we create branches of code  

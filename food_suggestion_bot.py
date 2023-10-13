@@ -28,6 +28,7 @@ elif fave_food.lower().strip("!,.?") in NA_food:
     print("I see you like american classics")
     time.sleep(1)
     print("Try Five Guys. Here is their address.")
+    time.sleep(0.5)
     print("635 Robson St, Vancouver, BC V6B 5J3")
 else:
     print("Sorry, I'm not sure what kind of food that is")
