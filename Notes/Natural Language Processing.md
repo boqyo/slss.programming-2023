@@ -88,23 +88,6 @@ dafhhadfhadh
 ```
 
 
-
-
-
-
-
-# Strings
-
-# Format Strings
-
-If we want to evaluate inside of a string, we use f-strings
-
-```python
-favorite_food = input("Whats your favorite food")
-
-print(f"ooo, {favorite_food} sounds good")
-```
-
 # [[Design]]
 # [[Lists]]
 
