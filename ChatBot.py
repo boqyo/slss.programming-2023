@@ -25,7 +25,7 @@ elif favorite_food == "burgers" or favorite_food == "Burgers" or favorite_food =
     print("Burgers are so good")
     time.sleep(1)
     print("Cheeseburgers are my favorite")
-else
+
 
 # Create a list of possible responses
 list_of_food_responses = [
@@ -38,4 +38,4 @@ import random
 random_food_response = random.choice(list_of_food_responses)
 # Print out one of those responses
 time.sleep(1)
-print(random_food_response)x
+print(random_food_response)
