@@ -11,16 +11,7 @@ tags:
   - programming-level-1-2
 
 ---
----
-tags:
-  - notes
-  - slss
-  - y2023
-  - programming-level-1-2
----
 # Iteration
-
-![Loop from Giphy](https://media1.giphy.com/media/6HsjDOBPwY1eIS6kE0/giphy.gif?cid=ecf05e47u4wu0hvl9m1juhmryx7t9tw7httc7qnwe9k8shyg&ep=v1_gifs_search&rid=giphy.gif&ct=g)
 
 We can repeat our instructions using *iteration* or *loops*.
 
