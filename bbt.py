@@ -2,10 +2,6 @@
 # Author : Shaun
 # Oct 27 20223
 
-# ask 5 users what their favourite bubble tea place is
-# prints summary of data
-
-# number of voters
 
 NUM_RESPONDENTS = 7
 
@@ -20,8 +16,8 @@ for _ in range(NUM_RESPONDENTS):
     print("Whats your favorite bubble tea")
     fave_place = input().strip("!,.?").lower()
 
-# Tally or counting sign
 
+# Tally votes
     if fave_place == "coco":
         coco_likes = coco_likes + 1
     elif fave_place == "suntea":
@@ -31,17 +27,19 @@ for _ in range(NUM_RESPONDENTS):
     elif fave_place == "bubble queen":
         bubqueen_likes += 1
 
+# Print likes
 print(f"CoCo Likes: {coco_likes}")
 print(f"Suntea Likes: {suntea_likes}")
 print(f"chatime Likes: {chatime_likes}")
 print(f"bubble queen Likes: {bubqueen_likes}")
 
-coco_percentage = coco_likes / 7 * 100
-suntea_percentage = suntea_likes / 7 * 100
-chatime_percentage = chatime_likes / 7 * 100
-bubqueen_percentage = bubqueen_likes / 7 * 100
+# Calculate percentages
+coco_percentage = (coco_likes / NUM_RESPONDENTS) * 100
+suntea_percentage = (suntea_likes / NUM_RESPONDENTS) * 100
+chatime_percentage = (chatime_likes / NUM_RESPONDENTS) * 100
+bubqueen_percentage = (bubqueen_likes / NUM_RESPONDENTS) * 100
 
-
+# Print percentages (rounded)
 print(f"Coco vote percentage: {round(coco_percentage, 2)}%")
 print(f"Suntea vote percentage: {round(suntea_percentage, 2)}%")
 print(f"chatime vote percentage: {round(chatime_percentage, 2)}%")
