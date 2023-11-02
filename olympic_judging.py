@@ -1,3 +1,7 @@
+# Author: Shaun ha
+# date november 1 2023
+# judge score
+
 final_score = 0
 
 judge_score = ["Judge 1: ", "Judge 2: ", "Judge 3: ", "Judge 4: ", "Judge 5: "]
