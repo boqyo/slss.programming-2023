@@ -1,3 +1,8 @@
+# Author: shaun
+# Date: nov 1 2023
+# Age thing
+
+
 age = input("How old are you ")
 
 new_age = int(age) + 26
