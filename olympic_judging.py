@@ -14,4 +14,4 @@ for judge in judge_score:
     else:
         final_score += score
 
-print({round ((final_score / 5), 2)})
+print(round (("Your olympic score is", final_score / 5), 2))
