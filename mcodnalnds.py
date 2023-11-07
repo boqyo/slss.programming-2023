@@ -19,5 +19,5 @@ if fries_ask.lower().strip("!,.?") == "yes":
     order_cost += int(3)
 
 # add tax
-print(order_cost * 1.14)
+print("your total is", order_cost * 1.14)
 

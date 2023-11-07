@@ -10,7 +10,7 @@ print(f"Hi {user_name}")
 continents = ["Asia ", "Europe", "North America ", "South America ", "Austrialia ", "Africa ", "Antarctica "]
 
 for place in continents:
-    visit = input(f"Have you been to {place}? ").lower().strip("!,'.?")
+    visit = input(f"Have you been to {place}? ").lower().strip("!,'/.?")
     if visit.lower().strip("!,.?") == "yes":
         total += 1
 
