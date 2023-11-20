@@ -65,17 +65,40 @@ with open("./data_example.csv", encoding="utf-8") as f:
 # see if why your code doesn't work.
 # Else, you can move on to this part, which is, find out how many
 # people have the first letter of their first name start with "A".
+A = 0
+with open("./data_example.csv", encoding="utf-8") as f:
+    for line in f:
+        current_line = line.strip().split(",")
+        A += current_line[0][0].count("A")
+print(f"Total A is {A}")
+
 
 # Problem 6:
 # 19 people! Excellent. How many people come from Guangzhou?
-
+G = 0
+with open("./data_example.csv", encoding="utf-8") as f:
+    for line in f:
+        current_line = line.strip().split(",")
+        G += current_line[4].count("Guangzhou")
+print(f"Total Guanzhou is {G}")
 
 # Problem 6:
 # Just one is from Guangzhou! Alright, last one. How many people have a credit card
 # number that is even. There are a couple of ways to solve this.
 # You can either do this with the string or with the int.
+card = 0
 
+
+with open("./data_example.csv", encoding="utf-8") as f:
+    next(f)
+    for line in f:
+        current_line = line.strip().split(",")
+        if int(current_line[3]) % 2 == 0:
+            card += 1
+print(f"Total even caerd is {card}")
 
 # Problem 7:
 # Sorry, no answer for the above one. This one is a challenge question.
 # Can you design a way to find the most popular food?
+
+# too confusing got stuck
