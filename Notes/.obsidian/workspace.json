@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functions.md",
+                "file": "Type.md",
                 "mode": "source",
                 "source": false
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functions.md",
+                "file": "Type.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functions.md",
+                "file": "Type.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functions.md"
+                "file": "Type.md"
               }
             }
           }
@@ -266,21 +266,21 @@
   },
   "active": "992f77c7c0aeb0fb",
   "lastOpenFiles": [
-    "Type.md",
-    "Functions.md",
-    "Lists.md",
-    "Recommendation systems.md",
-    "similarity_score.py",
-    "Markdown (Reintroduction).md",
-    "Iteration.md",
-    "Boolean.md",
-    "Conditionals.md",
-    "Design.md",
     "Strings.md",
     "Search.md",
+    "Recommendation systems.md",
     "Natural Language Processing.md",
     "Modules.md",
+    "Markdown (Reintroduction).md",
+    "Conditionals.md",
+    "Design.md",
     "Errors.md",
+    "Functions.md",
+    "Iteration.md",
+    "Type.md",
+    "Lists.md",
+    "similarity_score.py",
+    "Boolean.md",
     "Untitled.canvas",
     "README.md",
     "Color Codes.md",

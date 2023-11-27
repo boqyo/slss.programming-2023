@@ -33,7 +33,7 @@ def print_area_of_a_square(sidelength: float) -> None:
 
 
 print(print_area_of_a_square(12.2))
-# print_area_of_a_square(12)
+print(area_of_a_square(12.2))
 
 # Given two squares of two sidelengths
 #    12.2 and 144
@@ -41,3 +41,40 @@ print(print_area_of_a_square(12.2))
 
 # area_of_squares = area_of_a_square(12.2) + area_of_a_square(144)
 # print(area_of_squares)
+
+# Quesiton 1
+
+def stars(star_amount):
+    return "*" * star_amount
+
+star = int(input("amount of stars "))
+final = stars(star)
+print(final)
+
+# Question 2
+
+
+def biggest_of_three(a: int, b: int, c: int) -> int:
+    if a > b and a > c:
+        return a
+    
+    elif b > a and b > c:
+        return b
+    
+    else:
+        return c
+    
+a = input("give a")
+b = input("give b")
+c = input("give c")
+
+print(biggest_of_three(a, b, c))
+
+# question 3
+def pyramid(pyramid_amount: int) -> int:
+    for i in range(1, pyramid_amount+1):
+        print("*" * i)
+
+print(pyramid(5))
+
+# question 4
