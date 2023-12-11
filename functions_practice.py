@@ -43,16 +43,15 @@ print(area_of_a_square(12.2))
 # print(area_of_squares)
 
 # Quesiton 1
-
+# Create function called stars()
+# Takes int as perameter
+# Returns string of stars of given
 def stars(star_amount):
     return "*" * star_amount
 
-star = int(input("amount of stars "))
-final = stars(star)
-print(final)
+print(stars(5))
 
 # Question 2
-
 
 def biggest_of_three(a: int, b: int, c: int) -> int:
     if a > b and a > c:
@@ -64,9 +63,9 @@ def biggest_of_three(a: int, b: int, c: int) -> int:
     else:
         return c
     
-a = input("give a")
-b = input("give b")
-c = input("give c")
+a = input("give a ")
+b = input("give b ")
+c = input("give c ")
 
 print(biggest_of_three(a, b, c))
 
@@ -77,4 +76,9 @@ def pyramid(pyramid_amount: int) -> int:
 
 print(pyramid(5))
 
+
 # question 4
+def pyramid(pyramid_amount: int) -> int:
+    for i in range(1, pyramid_amount+1):
+        print(" " * stars(pyramid))
+print(pyramid(5))
