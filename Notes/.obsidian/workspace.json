@@ -124,6 +124,18 @@
             }
           },
           {
+            "id": "ac8c7b18e7ba6dd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "45f2c99db20ea129",
             "type": "leaf",
             "state": {
@@ -136,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -182,8 +194,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -265,8 +276,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "992f77c7c0aeb0fb",
+  "active": "ac8c7b18e7ba6dd0",
   "lastOpenFiles": [
+    "Lists.md",
+    "Boolean.md",
     "Markdown (Reintroduction).md",
     "Type.md",
     "Strings.md",
@@ -279,9 +292,7 @@
     "Errors.md",
     "Functions.md",
     "Iteration.md",
-    "Lists.md",
     "similarity_score.py",
-    "Boolean.md",
     "Untitled.canvas",
     "README.md",
     "Color Codes.md",
